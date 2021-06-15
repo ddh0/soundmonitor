@@ -4,7 +4,7 @@ Standalone python module to visually monitor the ambient sound level in real-tim
 # How it works
 soundmonitor.py is a Python 3 module that uses the system microphone to measure the loudness of sounds. It does this by manually performing RMS calculations on the raw sample data from the microphone and additionally converting this RMS value to an approximate Decibel value. It then displays a meter that varies in length depending on the calculated loudness of the sound.
 
-The program can be trivially altered to perfer either super frequent display updates or super accurate sound measurements. See the top of the file for instructions.
+The program can be trivially altered to prefer either super frequent display updates or super accurate sound measurements. See the top of the file for instructions.
 
 # Real-time audio processing
 
